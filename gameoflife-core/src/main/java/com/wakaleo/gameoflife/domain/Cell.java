@@ -8,8 +8,8 @@ package com.wakaleo.gameoflife.domain;
  * Cell object class, contains information on individual cells (positions) in the grid
  */
 public enum Cell {
-	// Symbols to represent cell status aaaaaa
-    LIVE_CELL("+"), DEAD_CELL(".");
+	// Symbols to represent cell status
+    LIVE_CELL("*"), DEAD_CELL(".");
 
     private String symbol;
 
